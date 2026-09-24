@@ -1,0 +1,36 @@
+{
+  "model_type": "OLS Linear Regression (statsmodels)",
+  "target": "avgwaiting_time",
+  "predictors": [
+    "count_entrance",
+    "numofcall",
+    "avgservice_time",
+    "share_neopan"
+  ],
+  "coefficients": {
+    "const": -38.89225491,
+    "count_entrance": -0.19535407,
+    "numofcall": 0.20284481,
+    "avgservice_time": 0.4536193,
+    "share_neopan": 0.74341397
+  },
+  "p_values": {
+    "const": 2e-06,
+    "count_entrance": 0.0,
+    "numofcall": 0.0,
+    "avgservice_time": 0.0,
+    "share_neopan": 0.000393
+  },
+  "r_squared": 0.3974,
+  "adj_r_squared": 0.3856,
+  "n_observations": 210,
+  "ml_used": false,
+  "validation": {
+    "MAE": 3.423,
+    "RMSE": 4.505,
+    "MAPE_pct": 34.68,
+    "correlation_observed_vs_simulated": 0.63,
+    "R_squared": 0.397,
+    "note": "IN-SAMPLE fit only (n=210, single port). NOT an out-of-sample / holdout forecast validation, and NOT a validation of the scenario-simulation outputs in Section K (those use out-of-historical-range inputs that cannot be directly validated against observed data, since the port has not experienced those exact combinations)."
+  }
+}

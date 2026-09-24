@@ -1,0 +1,16 @@
+{
+  "final_disruption_method": "robust_zscore_mad",
+  "disruption_threshold_robust_z": 3.5,
+  "median_waiting_time": 9.0,
+  "mad_scaled": 4.447807,
+  "normal_period_baseline_inputs": {
+    "count_entrance": 253.045,
+    "numofcall": 347.335,
+    "avgservice_time": 25.515,
+    "share_neopan": 22.475
+  },
+  "call_to_entrance_ratio": 1.37262147,
+  "surge_entrance_p90": 288.0,
+  "capacity_disrupt_service_time": 31.0,
+  "recovery_threshold": 13.447807
+}
