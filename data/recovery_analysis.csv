@@ -1,0 +1,4 @@
+episode_start,episode_end,peak_week,peak_value,recovery_weeks_from_peak,recovery_threshold
+2021-W18,2021-W19,2021-W19,31.0,2,13.45
+2021-W26,2021-W30,2021-W29,32.0,2,13.45
+2021-W42,2021-W44,2021-W43,36.0,3,13.45

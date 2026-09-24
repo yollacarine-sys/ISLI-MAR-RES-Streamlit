@@ -1,0 +1,5 @@
+Intervention,Predicted_Waiting_Time,Delta_vs_Baseline_pct
+No_intervention,15.8,51.8
+Arrival_smoothing,12.9,23.9
+Service_capacity_recovery,13.32,27.9
+Combined_recovery,10.41,0.0

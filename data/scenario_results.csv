@@ -1,0 +1,5 @@
+Scenario,Input_count_entrance,Input_avgservice_time,Predicted_Waiting_Time,Delta_vs_Baseline_pct,Throughput_numofcall_assumed,Recovery_Indicator
+S0_Baseline,253.0,25.5,10.41,0.0,347.3,N/A — static regression has no time dynamics; recovery timing cannot be computed without a dynamic/queueing model (see Section M limitations).
+S1_ArrivalSurge,288.0,25.5,13.32,27.9,395.3,N/A — static regression has no time dynamics; recovery timing cannot be computed without a dynamic/queueing model (see Section M limitations).
+S2_CapacityDisruption,253.0,31.0,12.9,23.9,347.3,N/A — static regression has no time dynamics; recovery timing cannot be computed without a dynamic/queueing model (see Section M limitations).
+S3_Combined,288.0,31.0,15.8,51.8,395.3,N/A — static regression has no time dynamics; recovery timing cannot be computed without a dynamic/queueing model (see Section M limitations).

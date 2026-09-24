@@ -1,0 +1,5 @@
+,pearson_r,spearman_r,lag0_classification
+count_entrance,-0.2106031502650633,-0.22682339422332748,Weakly associated
+numofcall,-0.019260461901810622,-0.020069071936603393,Insufficient evidence
+avgservice_time,0.30898004268755913,0.4429278322641952,Moderately associated
+share_neopan,0.19273557373673836,0.16366462249083058,Weakly associated
